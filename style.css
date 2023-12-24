@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    padding: 0.7rem;
+    background: rgb(0,136,122);
+    background: linear-gradient(157deg, rgba(0,136,122,1) 66%, rgba(82,193,158,1) 66%);
+    width: 100%;
+}
+
+.info-header {
+    
+    font-size: 1.5rem;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(34, 33, 33);
+    background: rgba(0,0,0,0.9) url(./background.jpg);
+    background-size: cover;
+    background-position: 90%;
+    background-blend-mode: darken;
+}
+
+.box {
+    text-align: center;
+}
+
+.imagem-logoufrj {
+    margin-top: 20px;
+    width: 65vw;
+}
+
+.imagem-perfil {
+    margin-top: 20px;
+    width: 40vw;
+    height: 30vh;
+}
+
+.Nome {
+    margin-top: 10px;
+    color: #0d887b;
+    font-size: 1.2rem;
+}
+
+.info-cima {
+        color: white;
+        font-size: 1rem;
+}
+.info-basicas {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.info {
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.Linha {
+    color: #0d887b;
+    margin-top: 15px;
+    font-size: 1rem;
+}
+
+.info-basicas2 {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.imagem-qrcode {
+    margin-top: 20px;
+    width: 35vw;
+    height: 20vh;
+}
+
+.info-cima-baixo {
+    font-size: 1.25rem;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.info-cima-baixo2 {
+    font-size: 1.25rem;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.info-validacao {
+    color: white;
+    margin-top: 5px;
+    font-size: 0.8rem;
+}
+
+.info-codigo {
+    color: white;
+    margin-top: 5px;
+    font-size: 0.8rem;
+}
+
+.assinatura {
+    width: 100%;
+}
+
+.Fernanda {
+    font-size: 1.5rem;
+}
+
+.data {
+    margin-top: 25px;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
